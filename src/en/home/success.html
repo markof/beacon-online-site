@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>success - BEACON ONLINE</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module">
+      import { createApp } from 'vue'
+
+      // 引入page vue文件
+      import page from './success.vue'
+
+      // 引入全局reset样式
+      import '@common/reset.styl'
+      createApp(page).mount('#app')
+    </script>
+  </body>
+</html>
