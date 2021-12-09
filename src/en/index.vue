@@ -116,7 +116,7 @@ mixin section-service-compare
           p Typically not included
 
       .remark
-        p * Cancellation within 24 hours will incur additional charges
+        p * Cancellations made within 24 hours will incur a processing fee.
 
 mixin section-sign-up
   section.sign-up

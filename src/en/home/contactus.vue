@@ -2,8 +2,8 @@
 .reservation-page-container
   //- van-nav-bar(title="Appointment" left-text="Back" right-text="" left-arrow @click-left="goback")
   .content-container
-    h1 Please leave your contact information
-    p Please leave your contact information and appointment type, and we will contact you as soon as possible.
+    h1 We look forward to talking with you soon!
+    p Please leave your contact information and any additional information that you think may be relevant to our conversation. We will reach out to you soon!
     register-box(@success="registerSuccess")
 </template>
 

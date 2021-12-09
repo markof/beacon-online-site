@@ -3,7 +3,7 @@
   .form-item
     p.title Mobile Number
     .input-area(:class="[errmsg.mobile ? 'error' : '']")
-      input(type="tel" placeholder="input mobile number" maxlength="11" v-model="form.mobile" @change="mobileValidation")
+      input(type="tel" placeholder="Mobile Number" maxlength="11" v-model="form.mobile" @change="mobileValidation")
     .err-msg(v-if="errmsg.mobile")
       img(src="@assets/components/register/info.png")
       span(v-text="errmsg.mobile")
@@ -19,7 +19,7 @@
   .form-item
     p.title SMS verification code
     .input-area(:class="[errmsg.smscode ? 'error' : '']")
-      input(type="tel" placeholder="code" maxlength="4" v-model="form.smscode")
+      input(type="tel" placeholder="4-digit verification code" maxlength="4" v-model="form.smscode")
       .side
         button(@click="sendSms" v-text="smsbtntext" :disabled="countdown")
     .err-msg(v-if="errmsg.smscode")
@@ -73,7 +73,7 @@ export default {
       needcaptcha: false,
       qs: null,
       countdown: false,
-      smsbtntext: 'Sent SMS',
+      smsbtntext: 'Send SMS',
       loading: false
     }
   },

@@ -3,7 +3,7 @@
   .content-container
     section.abount-beacon-online
       .title ABOUT BEACON ONLINE
-      .desc Beacon Online is a service of Beacon Learing, Beacon Online proivde Online Support for Kids with Learning Differences.
+      .desc Beacon Online is a subsidiary of Beacon Learning. Beacon Online provides families with online access to customized interventions and support for their children with learning differences to help them thrive in school and in life!
     section.contact-us
       .title CONTACT US
       .desc If you have any questions, please feel free to contact us.
